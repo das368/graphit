@@ -95,7 +95,7 @@ void graphFunction() {
   noFill();
   beginShape();
 
-  for (float x = -10; x <= 10; x += 0.1) {
+  for (float x = -10; x <= 10; x += 0.01) {
     float fx = evaluateFunction(x); 
     vertex(xScreen(x), yScreen(fx)); // add vertex to shape (line)
   }
