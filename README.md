@@ -22,3 +22,5 @@ Sample Photos:
 3. Launch graphing.pde and run
 
 Enjoy!
+
+Music Credit: https://www.youtube.com/watch?v=D5L36JDKxR0&list=PLdsGes2mFh92eHpOZVJQgoubb6rF0CcvU&ab_channel=Pix
