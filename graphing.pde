@@ -1,6 +1,9 @@
 import net.objecthunter.exp4j.Expression; //imports for parsing user input and evaluating functions
 import net.objecthunter.exp4j.ExpressionBuilder;
+import ddf.minim.*;  // Import the Minim library
 
+Minim minim;
+AudioPlayer player;
 PFont font; // added font from data file
 
 int currentScreen = 0; // start program at main menu
@@ -25,6 +28,10 @@ void scaleFactor(){
 
 void setup() {
   size(1280, 720);
+  minim = new Minim(this);
+  player = minim.loadFile("music.mp3");
+  player.setGain(-18);
+  player.loop();
 }
 
 void draw() {
